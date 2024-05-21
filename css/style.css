@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;600&display=swap');
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #hero {
+    padding-top: 5rem !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #hero {
+    padding-top: 7rem !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #hero {
+    padding-top: 8rem !important;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.about-title {
+  color: #6C757D;
+}
+
+.dark-mode .about-title {
+  color: #fff;
+}
+
+.dark-mode #skills .card {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+#themeToggleBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+
+#scrollToTop {
+  font-size: 1.3rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.brand {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #000;
+
+}
+
+.social-icons {
+  color: #333 !important;
+}
+
+.dark-mode .social-icons {
+  color: #fff !important;
+}
+
+.social-icons i {
+  font-size: 1.8rem;
+  padding: .6rem;
+}
+
+.dark-mode .brand {
+  color: #fff
+}
+
+.dark-mode #scrollToTop {
+  color: #333;
+  background-color: #fff;
+}
+
+.dark-mode header {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #333 !important;
+}
+
+.dark-mode .nav-link {
+  color: #fff !important;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+
+#skills {
+  background-color: #f8f9fa;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #333;
+  /* Example color - change as desired */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  /* Smooth transition */
+}
+
+
+
+.hero-btn:hover {
+  background-color: #2f2e2e;
+  /* Slightly darker on hover */
+}
+
+.hero-btn:active {
+  transform: translateY(2px);
+  /* Subtle push effect */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .hero-btn {
+  color: #333 !important;
+  background-color: #fff !important;
+
+}
+
+
+
+.dark-mode #skills {
+  background-color: #333;
+  color: #fff;
+}
+
+#projects {
+  background-color: #f8f9fa;
+}
+
+/* In your style.css */
+.dark-mode #about-me {
+  background-color: #333;
+  /* Your dark background color */
+}
+
+/* In your style.css */
+.dark-mode #projects {
+  background-color: #333;
+  /* Your dark background color */
+}
+
+/* General HR Styling (optional) */
+hr {
+  border: none;
+  width: 25%;
+  height: 2px;
+  margin: 20px auto;
+
+  /* Spacing above and below  */
+}
+
+h1 {
+  color: #000;
+}
+
+.dark-mode h1 {
+  color: #fff;
+}
+
+/* Dark Mode HR */
+.dark-mode hr {
+  background-color: #fff;
+  /* White with some transparency */
+  /* Optional: Add effects */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+
+}
+
+
+body.dark-mode {
+  background-color: #333 !important;
+  color: #f0f0f0 !important;
+}
+
+.dark-mode footer {
+  background-color: #333 !important;
+  color: #f0f0f0 !important;
+}
+
+.dark-mode .fab {
+  color: #f0f0f0 !important;
+}
+
+.fab {
+  font-size: 1.2em;
+  color: #333;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+
+
+
+
+
+/* Style the button */
+#themeToggleBtn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
